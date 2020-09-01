@@ -13,10 +13,10 @@ import image from './image/my_dp.jpg'
 function Sidebar() {
     return (
         <div className="sidebar">
-            <SidebarRow src={image} title='kanak'/>
+            <SidebarRow src={image} title='Kanak Tyagi'/>
             <SidebarRow 
             Icon={LocalHospitalIcon}
-            title= "COvid-19 Information Center"
+            title= "Covid-19 Information Center"
             />
             <SidebarRow 
             Icon={EmojiFlagsIcon}
