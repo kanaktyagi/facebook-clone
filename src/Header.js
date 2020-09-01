@@ -20,7 +20,7 @@ function Header() {
                  <img style={{height: 40}} src={image} alt="facebook logo"/>
                       <div className="header__input">
                            <SearchIcon />
-                     <input type="text" />
+                     <input type="text" placeholder="Search Facebook"/>
         </div>
         </div>
             <div className="header__center">
