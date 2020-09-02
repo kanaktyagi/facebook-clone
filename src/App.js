@@ -4,17 +4,21 @@ import './App.css';
 import Sidebar from './Sidebar'
 import Feed from './Feed'
 import Widgets from './Widgets'
+import Login from './Login';
 
 
 function App() {
-  return (
+  const user= ''
+  return ( 
     <div className="app">
-     <Header/>
-     <div className="app_body">
-     <Sidebar />
-     <Feed />
-     <Widgets />
-     </div>
+    { !user ? <Login/> : (<>  <Header/>
+      <div className="app_body">
+      <Sidebar />
+      <Feed />
+      <Widgets />
+      </div>
+      </>)}
+    
     </div>
   );
 }
