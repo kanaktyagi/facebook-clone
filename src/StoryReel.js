@@ -29,6 +29,11 @@ function StoryReel() {
               profileSrc={imageN}
               title="Hema Singh"
                />
+               <Story
+               image="https://scontent-del1-1.xx.fbcdn.net/v/t1.0-0/s640x640/118765637_320961995687637_241623790476702247_o.jpg?_nc_cat=107&_nc_sid=365331&_nc_ohc=2LnbXBJ6hMkAX_JTd43&_nc_ht=scontent-del1-1.xx&tp=7&oh=3af9a1e6e5f22101a97bdfe245172e70&oe=5F730507"
+               profileSrc={imageN}
+               title="Himani Singh"
+                />
         </div>
     )
 }
